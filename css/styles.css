@@ -1,0 +1,178 @@
+.top-container {
+  background-color: #e0ebe8;
+  font-family: fantasy;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  padding: 50px 0 40px;
+  background-color: #66BFBF;
+}
+
+h1 {
+  font-size: 5.62rem;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+  font-family: 'Mrs Saint Delafield', cursive;
+  color: #1e836c;
+}
+
+u {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 2;
+  font-family: 'Anton', sans-serif;
+  color: #45b29a;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Fjalla One', sans-serif;
+  color: #1e836c;
+}
+
+p {
+  font-size: 1rem;
+  color: #40514E;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Anton', sans-serif;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+body {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+hr {
+  border: dotted 6px #EAF6F6;
+  border-bottom: 0;
+  width: 5%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile {
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.cloud-up {
+  position: absolute;
+  right: 400px;
+}
+
+.cloud-mid {
+  position: absolute;
+  left: 400px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  right: 700px;
+}
+
+.scene {
+  position: relative;
+  top: 4px;
+}
+
+.profile_pic {
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.skills_pic1 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.skills_pic2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.skills_pic3 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.button {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 40px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20 #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
